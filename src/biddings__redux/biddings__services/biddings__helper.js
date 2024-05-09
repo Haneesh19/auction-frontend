@@ -4,7 +4,7 @@
 
 
 
-    export const BIDDING__MAIN__BACKENDURl =
-  import.meta.env.VITE_LOCAL_URL === "production"
+export const BIDDING__MAIN__BACKENDURl =
+  import.meta.env.REACT_APP_API_PROXY === "production"
     ? "https://auction-backend-bchd.onrender.com/"
     : `http://localhost:4000`;
