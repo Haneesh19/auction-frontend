@@ -20,13 +20,8 @@ import Biddings__AdminDashboard from "./biddings__pages/biddings___admin/bidding
 import Biddings__User from "./biddings__pages/biddings___admin/biddings__users";
 import Biddings__Products from "./biddings__pages/biddings___admin/biddings__products";
 
-// Import dotenv for loading environment variables
-import dotenv from "dotenv";
-dotenv.config();
-
 // Configuring Axios so that each request includes credentials
-axios.defaults.baseURL = process.env.REACT_APP_API_PROXY || "http://localhost:5000";
-
+axios.default.withCredentials = true;
 function App() {
   // Starting the Redux dispatch process
   const dispatch = useDispatch();
@@ -41,7 +36,7 @@ function App() {
     <div>
       {/* ToastContainer for displaying notifications */}
       <ToastContainer />
-      {/* Configuring a React router with routes and route components */}
+      {/* Configuring a React router with routes and route components */}{" "}
       <Routes>
         {/* Route for landing pages */}
         <Route
@@ -52,7 +47,7 @@ function App() {
             </NormalLayout___NormalLayout>
           }
         />
-        {/* Path for user verification */}
+        {/* Path for user verification */}{" "}
         <Route
           path="/verify/:verificationToken"
           element={
@@ -70,7 +65,7 @@ function App() {
             </Biddings___BuyerLayout>
           }
         />
-        {/* The seller dashboard's route */}
+        {/* The seller dashboard's route */}{" "}
         <Route
           path="/seller/dashboard"
           element={
@@ -89,7 +84,7 @@ function App() {
             </SellerLayout>
           }
         />
-        {/* Path for a buyer to view product details*/}
+        {/* Path for a buyer to view product details*/}{" "}
         <Route
           path="/buyer/product/:fullName/:postedItemName/:id"
           element={
@@ -98,7 +93,7 @@ function App() {
             </Biddings___BuyerLayout>
           }
         />
-        {/* The admin section's routes*/}
+        {/* The admin section's routes*/}{" "}
         <Route
           path="/admin/dashboard"
           element={
@@ -123,8 +118,7 @@ function App() {
             </AdminLayout___AdminLayout>
           }
         />
-        {/* A route to manage unidentified paths */}
-        <Route path="*" element={<div>Not found</div>} />
+        {/* A route to manage unidentified paths */} <Route path="*" element={<div>Not found</div>} />
       </Routes>
     </div>
   );
