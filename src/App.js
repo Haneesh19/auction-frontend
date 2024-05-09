@@ -21,7 +21,7 @@ import Biddings__User from "./biddings__pages/biddings___admin/biddings__users";
 import Biddings__Products from "./biddings__pages/biddings___admin/biddings__products";
 
 // Configuring Axios so that each request includes credentials
-//axios.default.withCredentials = true;
+axios.default.withCredentials = true;
 
 axios.defaults.baseURL =
   process.env.REACT_APP_API_PROXY || 'http://localhost:5000';
