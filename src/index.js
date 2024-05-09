@@ -20,12 +20,7 @@ root.render(
     </ThemeProvider>
   </React.StrictMode>
 );
-newAppInstance.use(
-  cors({
-    origin: ["http://localhost:3000", process.env.REACT_APP_API_PROXY], // Allow requests from specified origins
-    credentials: true, // Enable credentials (cookies, HTTP authentication) in CORS requests
-  })
-);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
