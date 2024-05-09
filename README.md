@@ -9,25 +9,44 @@
 
 
 ## User Interface   
-![](./readmeimg/userinterface.png)   
+
+<a href="https://ibb.co/B68X2b9"><img src="https://i.ibb.co/wQD9hVf/userinterface.png" alt="userinterface" border="0" /></a>
 
 ## User Register   
-![](./readmeimg/buyerregister.png)   
+<a href="https://ibb.co/Y4SqdCn"><img src="https://i.ibb.co/PsyfWLX/buyerregister.png" alt="buyerregister" border="0" /></a> 
 
 ## Seller Register   
-![](./readmeimg/sellerregister.png)   
+  
+  <a href="https://ibb.co/fptsxdp"><img src="https://i.ibb.co/6PbkW0P/sellerregister.png" alt="sellerregister" border="0" /></a>
 
 ## Buyer UI   
-![](./readmeimg/buyerui.png)   
-![](./readmeimg/productui.png)
+<a href="https://ibb.co/nsMD426"><img src="https://i.ibb.co/QFv6hBp/buyerui.png" alt="buyerui" border="0" /></a>
+
+<a href="https://ibb.co/hR6mjHS"><img src="https://i.ibb.co/RpFDmPq/productui.png" alt="productui" border="0" /></a>
+
 ## Seller UI   
-![](./readmeimg/selleraddproducts.png)   
+
+<a href="https://ibb.co/GVjJjRg"><img src="https://i.ibb.co/wK1L14D/selleraddproducts.png" alt="selleraddproducts" border="0" /></a>
+
 
 ## Admin UI   
-![](./readmeimg/admin%20interface.png)
-![](./readmeimg/adminpanel.png)
-![](./readmeimg/adminpanel2.png)
+
+<a href="https://ibb.co/9pSTVN4"><img src="https://i.ibb.co/b6DB2Pv/admin-interface.png" alt="admin-interface" border="0" /></a>
+
+<a href="https://ibb.co/6Dnt2tF"><img src="https://i.ibb.co/h27dkdV/adminpanel.png" alt="adminpanel" border="0" /></a>
+
+<a href="https://ibb.co/zbhP9PQ"><img src="https://i.ibb.co/mtChZhb/adminpanel2.png" alt="adminpanel2" border="0" /></a>
 
 ## Demo Vedio   
 
 [Demo Vedio Link](https://youtu.be/ZB92rr1Z8Sg)
+
+
+
+
+
+
+
+
+
+
